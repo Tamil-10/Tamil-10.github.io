@@ -9,9 +9,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  
     <script href="scripts.js"></script>
     <link rel="stylesheet" href="style.css">
+
  <script>
      $('.more-options a').click(function(e) {
   $(this).next('.additional-options').slideToggle();
@@ -20,6 +20,7 @@
 
 
     </script>
+
 
 </head>
 <body style="    background-color: #efecec;" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -71,41 +72,6 @@
          <li><a href="#">Blog</a></li>
               <li><a class="signup-but" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
           </ul>
-<!--
-        <ul class="nav navbar-nav">
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Feautures<span class="caret"></span></a>
-             <ul class="dropdown-menu">
-              <li><a href="#">Leads</a></li>
-                 <li><a href="#">Deals</a></li>
-                 <li><a href="#">Event Tracking</a></li>
-                 <li><a href="#">Phone</a></li>
-                 <li><a href="#">Email</a></li>
-                 <li><a href="#">Reports</a></li>
-                 <li><a href="#">Workflows</a></li>
-                 <li><a href="#">Integrations</a></li>
-                 <li><a href="#">Leads</a></li>
-                 
-                 
-            </ul>
-            </li>
-          <li class="nav-main-item nav-main-item-button caps-heading-12 hide-in-mobile-and-tablet"><a href="#section2">Pricing</a></li>
-          <li><a href="#">Industries</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Resources<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">GDPR</a></li>
-              <li><a href="#">Case Studies</a></li>
-                 <li><a href="#">Videos</a></li>
-                 <li><a href="#">Webinars</a></li>
-                 <li><a href="#">Infographics</a></li>
-                 <li><a href="#">Presentations</a></li>
-                 <li><a href="#">Blog</a></li>
-                 
-            </ul>
-          </li>
-             <li><a href="#">Blog</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        </ul>
--->
       </div>
     </div>
   </div>
@@ -347,8 +313,8 @@
   </div>
           <div class="plan-box">
     <div class="plan-options">
-          <div>
-        <img style="    border-top-left-radius: 12px;    border-top-right-radius: 12px;" src=" https://github.com/Tamil-10/Html/blob/master/forest-9812bf06.jpg?raw=true">
+          <div class="plan-img">
+        <img style="    border-top-left-radius: 12px;     width: 100%;   border-top-right-radius: 12px;" src=" https://github.com/Tamil-10/Html/blob/master/forest-9812bf06.jpg?raw=true">
         </div>
       <p class="plan-name">
        FOREST
@@ -533,7 +499,7 @@
          <br>
          <p style="    line-height: 2;">When you’re away from your desk, you know you aren’t away from your leads and deals. Use the Freshsales iOS and Android apps to keep your sales going from your smartphone: get 360° context, move leads across stages, fix meetings, and ride to them.</p>
          <div class="row">
-          <div class="form-group col-sm-12">
+          <div class="form-group col-sm-12" style="    display: flex;">
            <div class="col-sm-2"><img class="getimage" src="https://www.freshworks.com/assets/images/common/icons/img-google-play-0345bb1c.png"></div>
            <div class="col-sm-1"></div>
  <div class="col-sm-2"> <img class="getimage"  src="https://www.freshworks.com/assets/images/common/icons/img-apple-store-dc9da952.png"></div>
@@ -554,7 +520,7 @@
     <div class="row">
        <div class="form-group col-sm-12">
            <div class="col-sm-4">
-            <div class="row">
+            <div class="row" id="footstyles">
                <div class="col-sm-6" id="footstyles">
                 <h6><img style="height: 20px" src="https://www.freshworks.com/assets/images/common/company/logos/logo-fworks-black-09bbb446.svg"></h6>
                 <ul id="footstyle">
@@ -591,12 +557,10 @@
             
            </div>
 
-
-         </div>
-       
+       </div>
          <div class="col-sm-8" style="    border-left: 1px solid #b3afaf;">
-          <div class="row">
-               <div class="col-sm-3">
+          <div class="row" id="footstyles">
+               <div class="col-sm-3" >
                 <h5 style="color: #4d4d4d"><strong> FRESHSALES</strong></h5>
                  <ul id="foot">
                   <li><a href="">CRM Software</a></li>
@@ -681,13 +645,130 @@
 
 
 
-
-   
 </div>
 
-  
-	<div class="cleafix"></div>
- 
+
+<div class="bs-example">
+    <nav id="myNavbar" >
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+           
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div >
+
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li class="dropdown dropdownstyle">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle"><img style="height: 20px" src="https://www.freshworks.com/assets/images/common/company/logos/logo-fworks-black-09bbb446.svg"> <b class="caret caretstyle" ></b></a>
+                        <ul class="dropdown-menu liststyle">
+                           <li ><a href="">Freshdesk</a></li>
+                  <li><a href="">Freshservice</a></li>
+                  <li><a href="">Freshsales</a></li>
+                  <li><a href="">Freshcaller</a></li>
+                  <li><a href="">Freshteam</a></li>
+                  <li><a href="">Freshchat</a></li>
+                  <li><a href="">Freshmarketer</a></li>
+                  <li><a href="">Freshping</a></li>
+                  <li><a href="">Freshconnect</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown dropdownstyle">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">COMPANY <b class="caret caretstyle"></b></a>
+                        <ul class="dropdown-menu liststyle">
+                            <li><a href="">About</a></li>
+                  <li><a href="">Leadership</a></li>
+                  <li><a href="">Board of Directors</a></li>
+                  <li><a href="">Investors</a></li>
+                  <li><a href="">Solutions</a></li>
+                  <li><a href="">Affiliates</a></li>
+                  <li><a href="">Freshmarketer</a></li>
+                  <li><a href="">Partners</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">Newsroom</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href=""> GDPR</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav">
+                    <li class="dropdown dropdownstyle">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">TOP FEATURES <b class="caret caretstyle"></b></a>
+                        <ul class="dropdown-menu liststyle">
+                            <li><a href="">Lead Management</a></li>
+                  <li><a href="">Contact Management</a></li>
+                  <li><a href="">Deal Management</a></li>
+                  <li><a href="">Email Management</a></li>
+                  <li><a href="">Event Tracking</a></li>
+                  <li><a href="">Lead Scoring</a></li>
+                  <li><a href="">Email Tracking</a></li>
+                  <li><a href="">Territory Management</a></li>
+                  <li><a href="">Account Management</a></li>
+                  <li><a href="">Sales Reports</a></li>
+                  <li><a href="">Integrations</a></li>
+                  <li><a href="">Sales Campaigns</a></li>
+                  <li><a href="">Intelligent Workflows</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav">
+                    <li class="dropdown dropdownstyle">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Get Freshsales for iOS and Android <b class="caret caretstyle"></b></a>
+                        <ul class="dropdown-menu liststyle" style="display: flex;">
+                            <li><a href=""><img style="height: 34px;" src=" https://www.freshworks.com/assets/images/common/icons/img-google-play-0345bb1c.png"></a></li>              
+                   <li><a href=""><img style="height: 34px;" src=" https://www.freshworks.com/assets/images/common/icons/img-apple-store-dc9da952.png"></a></li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                       <ul class="nav navbar-nav">
+                    <li class="dropdown dropdownstyle">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Connect with us<b class="caret caretstyle"></b></a>
+                        <ul class="dropdown-menu liststyle" id="socialicons" >
+                           <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                   <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                <ul class="nav navbar-nav">
+                    <li class="dropdown dropdownstyle">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">CRM Resources<b class="caret caretstyle"></b></a>
+                        <ul class="dropdown-menu liststyle">
+                            <li><a href="">What is CRM?</a></li>
+                  <li><a href="">Free CRM Software</a></li>
+                  <li><a href="">CRM for Startups</a></li>
+                  <li><a href="">CRM for B2B Sales</a></li>
+                  <li><a href="">SDR</a></li>
+                  <li><a href="">CRM for Sales Productivity</a></li>
+                  <li><a href="">CRM System</a></li>
+                  <li><a href="">Sales Pipeline Management</a></li>
+                  <li><a href="">Lead Generation</a></li>
+                  <li><a href="">Sales Process</a></li>
+                  <li><a href="">Sales Cycle</a></li>
+                  <li><a href="">Sales Funnel</a></li>
+                  <li><a href="">Sales Strategy</a></li>
+                  <li><a href="">Sales Report Template</a></li>
+                  <li><a href="">Sales Forecast Template</a></li>
+                  <li><a href="">Inside Sales</a></li>
+                  <li><a href="">CRM Tool</a></li>
+                  <li><a href="">Best CRM</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</div>
     <!-- footer -->
 
 
